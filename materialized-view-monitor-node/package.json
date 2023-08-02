@@ -1,0 +1,24 @@
+{
+  "main": "app.js",
+   "engines": {
+	"node": "19.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "jest",
+	"start": "nvm use %npm_package_engines_node% && set PORT=0000 && node app.js"
+  },
+  "dependencies": {
+    "axios": "1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "nodemailer": "^6.9.3"
+  }
+  
+}
